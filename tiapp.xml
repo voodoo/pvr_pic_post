@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>com.ii.petpicpost</id>
+<name>PetPicPost</name>
+<version>1.0</version>
+<icon>appicon.png</icon>
+	<persistent-wifi>false</persistent-wifi>
+	<prerendered-icon>false</prerendered-icon>
+	<statusbar-style>opaque</statusbar-style>
+	<windows>
+		<!--window>
+			<title>Index</title>
+			<id>index</id>
+			<url>index.html</url>
+			<icon>img/photos-tab.png</icon>
+			<backgroundColor>#090909</backgroundColor>
+			<fullscreen>false</fullscreen>
+			<hideNavBar>true</hideNavBar>
+			<hideTabBar>false</hideTabBar>
+		</window-->	
+			  
+		<window>
+			<title>Pet Pic Post</title>
+			<id>picpost</id>
+			<url>pic.html</url>
+			<icon>img/photos-tab.png</icon>
+			<backgroundColor>#090909</backgroundColor>
+			<fullscreen>false</fullscreen>
+			<hideNavBar>true</hideNavBar>
+			<hideTabBar>false</hideTabBar>
+		</window>	
+		<window>
+			<title>Account</title>
+			<id>account</id>
+			<url>act.html</url>
+			<icon>img/lock.png</icon>
+			<backgroundColor>#090909</backgroundColor>
+			<fullscreen>false</fullscreen>
+			<hideNavBar>true</hideNavBar>
+			<hideTabBar>false</hideTabBar>
+		</window>
+		<window>
+			<title>About</title>
+			<id>about</id>
+			<url>about.html</url>
+			<icon>img/paw2.png</icon>
+			<backgroundColor>#090909</backgroundColor>
+			<fullscreen>false</fullscreen>
+			<hideNavBar>true</hideNavBar>
+			<hideTabBar>false</hideTabBar>
+		</window>				
+	</windows>
+<guid>86856ebf54d44fc68cedd4a7fc1478d3</guid>
+</ti:app>
